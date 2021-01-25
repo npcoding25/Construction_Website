@@ -1,0 +1,13 @@
+.carousel {
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.navbar-nav {
+    position: relative;
+    float: right;
+}
+
+.nav-link {
+   float: right;
+}
