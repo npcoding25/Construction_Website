@@ -1,6 +1,12 @@
-.carousel {
-    margin: 2rem;
-    padding: 2rem;
+body {
+    background-image: url("https://i.pinimg.com/originals/52/0a/79/520a7953fd7971de5df24ecea34167a2.jpg");
+
+}
+
+.navbar {
+    background-image: url(https://image.shutterstock.com/image-photo/beautiful-wooden-blocks-wall-texture-260nw-1667149075.jpg);
+    height: 130px;
+    /* background-color: rgb(163, 82, 35); */
 }
 
 .navbar-nav {
@@ -8,6 +14,54 @@
     float: right;
 }
 
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-title {
+    font-family: 'Stalinist One', cursive;
+    font-size: 2rem;
+}
+
 .nav-link {
-   float: right;
+    font-size: 20px;
+}
+
+.carousel {
+    margin: 2rem;
+    padding: 2rem;
+    /* width: 600px;
+    height: 400px;
+    max-width: 600px;
+    max-height: 400px; */
+}
+
+.carousel-item {
+    border: solid black;
+    /* width: 600px;
+    height: 400px; */
+}
+
+.carousel-images {
+    width: 100%;
+    height: 500px;
+    /* max-width: 600px;
+    max-height: 400px; */
+}
+
+.jumbotron {
+    margin-top: 2rem;
+    box-shadow: 1px 1px 8px 1px;
+    background-color: rgba(83, 25, 25, 0.68)
+}
+
+.photo {
+    border-radius: 100%;
+    float: left;
+    box-shadow: 1px 1px 8px 1px;
+
+}
+
+.info {
+    font-weight: bold;
 }
